@@ -2,6 +2,8 @@
 :root{
 
     --ligt-black : rgb(58, 58, 58);
+    --white : rgb(255, 255, 255);
+    --purple : rgb(224, 44, 109);
 }
 *{
     margin: 0px;
@@ -50,4 +52,47 @@ nav{
     font-size: 1rem;
     text-decoration: none;
     font-weight: 600;
+}
+
+
+
+/*********** banner ******************** */
+.banner_section{
+    padding: 50px 0px;
+}
+.banner_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_content{
+    width: 50%;
+}
+.banner_title{
+    font-size: 2.6rem;
+    color: var(--ligt-black);
+    font-weight: 600;
+}
+.banner_des{
+    font-size: 1rem;
+    color: var(--ligt-black);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner_btn{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--purple);
+    border-radius: 30px;
+    padding: 10px 24px;
+}
+.banner_images{
+    background-image: url(../imges/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+.banner_images img{
+    width: 100%;
 }
