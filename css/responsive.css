@@ -1,0 +1,29 @@
+/* Mobile css */
+@media screen and (max-width:576px) {
+    .brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    #hamber_icon{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .nav_shoping i,.hamber_icon i{
+        display: block;
+    }
+    
+}
+
+
+/* For medium devices */
+
+@media screen and (min-width : 576px) and (max-width: 992px) {
+    .menu_list ul{
+        gap: 20px;
+    }
+}
